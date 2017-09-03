@@ -11,10 +11,10 @@ import org.quartz.JobExecutionException;
 import org.prokyon.util.AppLogger;
 
 /**
- * @author pavan.solapure
+ * @author zangetsu
  *
  */
-@DisallowConcurrentExecution
+//@DisallowConcurrentExecution
 public class DynamicJob  implements Job {
 	
 	private final static AppLogger logger = AppLogger.getInstance();

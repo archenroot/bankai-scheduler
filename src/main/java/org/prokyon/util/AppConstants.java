@@ -6,7 +6,7 @@ package org.prokyon.util;
 /**
  * The Class Constants.
  *
- * @author pavan.solapure
+ * @author zangetsu
  */
 public class AppConstants {
 	

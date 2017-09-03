@@ -15,7 +15,7 @@ import org.springframework.beans.factory.config.PropertyPlaceholderConfigurer;
 /**
  * The Class PropertiesUtils.
  *
- * @author pavan.solapure
+ * @author zangetsu
  */
 public class PropertiesUtils extends PropertyPlaceholderConfigurer implements
 		Serializable {

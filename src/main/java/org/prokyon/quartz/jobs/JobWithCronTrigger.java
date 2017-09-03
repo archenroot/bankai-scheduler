@@ -18,11 +18,11 @@ import org.springframework.stereotype.Component;
 import org.prokyon.util.AppLogger;
 
 /**
- * @author pavan.solapure
+ * @author zangetsu
  *
  */
 @Component
-@DisallowConcurrentExecution
+//@DisallowConcurrentExecution
 public class JobWithCronTrigger implements Job {
 
 	private final static AppLogger logger = AppLogger.getInstance();
@@ -45,6 +45,7 @@ public class JobWithCronTrigger implements Job {
 			@Qualifier("jobWithCronTriggerBean")
 			JobDetail jobDetail
 	) {
+
 		return QuartzScheduler.createCronTrigger(jobDetail, frequency);
 	}
 }

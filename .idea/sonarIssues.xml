@@ -73,6 +73,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/prokyon/controller/TestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/prokyon/domain/CronScheduler.java">
           <value>
             <set />
@@ -198,7 +203,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/prokyon/quartz/jobs/DynamicJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/org/prokyon/quartz/jobs/JobWithCronTrigger.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/prokyon/quartz/jobs/JobWithDataMap.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/prokyon/quartz/jobs/JobWithSimpleTrigger.java">
           <value>
             <set />
           </value>

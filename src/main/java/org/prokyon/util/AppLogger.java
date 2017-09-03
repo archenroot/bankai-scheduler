@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 /**
  * The Class ApplicationLogger.
  *
- * @author pavan.solapure
+ * @author zangetsu
  */
 public class AppLogger {
 	

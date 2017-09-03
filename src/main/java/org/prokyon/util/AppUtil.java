@@ -15,7 +15,7 @@ import com.google.gson.Gson;
 /**
  * The Class AppUtil.
  *
- * @author pavan.solapure
+ * @author zangetsu
  */
 public class AppUtil {
 

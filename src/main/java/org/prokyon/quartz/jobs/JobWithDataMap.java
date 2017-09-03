@@ -20,11 +20,11 @@ import org.prokyon.configuration.QuartzScheduler;
 import org.prokyon.util.AppLogger;
 
 /**
- * @author pavan.solapure
+ * @author zangetsu
  *
  */
 @Component
-@DisallowConcurrentExecution
+//@DisallowConcurrentExecution
 public class JobWithDataMap implements Job {
 	
 private final static AppLogger logger = AppLogger.getInstance();

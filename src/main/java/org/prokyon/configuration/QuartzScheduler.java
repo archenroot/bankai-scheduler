@@ -110,6 +110,7 @@ public class QuartzScheduler {
 		factoryBean.setRepeatCount(SimpleTrigger.REPEAT_INDEFINITELY);
 		// in case of misfire, ignore all missed triggers and continue :
 		factoryBean.setMisfireInstruction(SimpleTrigger.MISFIRE_INSTRUCTION_RESCHEDULE_NEXT_WITH_REMAINING_COUNT);
+		logger.info("========================\nSimpleTriggerFactoryBean bean created\n========================");
 		return factoryBean;
 	}
 
@@ -120,6 +121,7 @@ public class QuartzScheduler {
 		factoryBean.setJobDetail(jobDetail);
 		factoryBean.setCronExpression(cronExpression);
 		factoryBean.setMisfireInstruction(SimpleTrigger.MISFIRE_INSTRUCTION_FIRE_NOW);
+		logger.info("========================\nCronTriggerFactoryBean bean created\n========================");
 		return factoryBean;
 	}
 
@@ -129,6 +131,7 @@ public class QuartzScheduler {
 		factoryBean.setJobClass(jobClass);
 		// job has to be durable to be stored in DB:
 		factoryBean.setDurability(true);
+		logger.info("========================\nJobDetailFactoryBean bean created\n========================");
 		return factoryBean;
 	}
 

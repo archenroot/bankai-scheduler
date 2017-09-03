@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 /**
- * @author pavan.solapure
+ * @author zangetsu
  *
  */
 public class CustomProperties extends Properties {
